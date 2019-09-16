@@ -1,5 +1,6 @@
 # MultiMediaPortfolioWebsite
 Website template based off of my own website. 
+Incorporates videos and images.
 
 Started the Summer of 2019, still in progress.
 
