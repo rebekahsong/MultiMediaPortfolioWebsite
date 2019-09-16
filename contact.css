@@ -1,0 +1,62 @@
+/* setup --------------------------------------------------*/
+@font-face {
+  font-family: knot;
+  src: url("knot-brk/knot.ttf");
+}
+.container {
+  position: relative;
+  z-index: -1;
+  margin-left:auto;
+  margin-right:auto;
+  width:1350px;
+  overflow:hidden;
+  height: 850px;
+  margin-top: 0;
+}
+
+/* text ----------------------------------------------------*/
+.contact{
+  font-size: 40px;
+  font-family: knot;
+}
+.information{
+  font-size:70px;
+  float: right;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  font-family: knot;
+}
+.subtext{
+  font-size:18px;
+  position: relative;
+  z-index: 0;
+  top: 280px;
+  text-align: center;
+  font-style:italic;
+}
+
+
+/*video and images ----------------------------------------------------*/
+.beltscroll{
+  position: relative;
+  z-index: -1;
+  float: right;
+  margin: 0 0 0 0;
+  top: -800px;
+  right: -55px;
+  margin-bottom: -500px;
+}
+.instagram {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.email {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+a {
+  display: block;
+}
