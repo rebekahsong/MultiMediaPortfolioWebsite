@@ -15,7 +15,7 @@
 }
 
 /* text ----------------------------------------------------*/
-.contact{
+.knot{
   font-size: 40px;
   font-family: knot;
 }
@@ -29,13 +29,58 @@
 }
 .subtext{
   font-size:18px;
-  position: relative;
-  z-index: 0;
-  top: 280px;
+  z-index: 1;
   text-align: center;
   font-style:italic;
 }
-
+a:link, a:visited, a:active {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  font-style: italic;
+}
+.right{
+  text-align: right;
+}
+.back{
+  padding-top: 50px;
+  padding-right: 30px;
+}
+.contact{
+  padding-left: 30px;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #696969;
+  color: white;
+  text-align: center;
+  border-radius: 6px;
+  padding: 3px 0;
+  position: absolute;
+  z-index: 1;
+  left: 110%;
+  font-size: 15px;
+  font-style: normal;
+}
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -5px;
+  border-width: 4px;
+  border-style: solid;
+  border-color: transparent #696969 transparent transparent;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
 
 /*video and images ----------------------------------------------------*/
 .beltscroll{
@@ -53,6 +98,7 @@
   margin-right: auto;
 }
 .email {
+  padding-top: 60px;
   display: block;
   margin-left: auto;
   margin-right: auto;
