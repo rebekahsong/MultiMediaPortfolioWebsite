@@ -15,12 +15,8 @@
 }
 
 /* text ----------------------------------------------------*/
-.knot{
-  font-size: 40px;
-  font-family: knot;
-}
 .information{
-  top: -50px;
+  top: -10px;
   font-size:70px;
   float: right;
   position: relative;
@@ -32,8 +28,16 @@
   font-size:18px;
   position: relative;
   z-index: 1;
-  text-align: center;
   font-style:italic;
+  top: 30px;
+}
+.textCenter{
+  text-align: center;
+}
+.knot{
+  font-size: 40px;
+  font-style: normal;
+  font-family: knot;
 }
 a:link, a:visited, a:active {
   text-decoration: none;
@@ -52,7 +56,43 @@ a:hover {
 .about{
   padding-left: 30px;
 }
-
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+.tooltip .tooltiptext {
+  font-family: serif;
+  visibility: hidden;
+  width: 200px;
+  background-color: #696969;
+  color: white;
+  text-align: center;
+  border-radius: 6px;
+  padding: 6px 0;
+  position: absolute;
+  z-index: 1;
+  left: 110%;
+  font-size: 16px;
+  font-style: normal;
+}
+.tooltip .tooltiptext::after {
+  font-family: serif;
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -5px;
+  border-width: 4px;
+  border-style: solid;
+  border-color: transparent #696969 transparent transparent;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+.links{
+  font-size: 40px;
+  font-family: knot;
+}
 
 /*video and images ----------------------------------------------------*/
 .beltscroll{

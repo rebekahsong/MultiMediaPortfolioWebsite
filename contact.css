@@ -31,7 +31,7 @@
   font-size:18px;
   z-index: 1;
   text-align: center;
-  font-style:italic;
+  font-weight: bold;
 }
 a:link, a:visited, a:active {
   text-decoration: none;
@@ -56,6 +56,7 @@ a:hover {
 }
 .tooltip .tooltiptext {
   visibility: hidden;
+  font-weight: normal;
   width: 120px;
   background-color: #696969;
   color: white;
@@ -71,6 +72,7 @@ a:hover {
 .tooltip .tooltiptext::after {
   content: "";
   position: absolute;
+  font-weight: normal;
   top: 50%;
   right: 100%;
   margin-top: -5px;
